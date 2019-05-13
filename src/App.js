@@ -38,13 +38,11 @@ class App extends Component {
           changed={this.nameChangedHandler}
         />
         <UserOutput 
-          firstPar="This is first paragraph"
-          secondPar="This is second paragraph"
+          userText="This is random paragraph"
           userName={this.state.userNames[0]}
         />
         <UserOutput 
-          firstPar="This is third paragraph"
-          secondPar="This is fourth paragraph"
+          userText="This is random paragraph"
           userName={this.state.userNames[1]}
         />
       </div>
