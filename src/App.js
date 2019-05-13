@@ -21,9 +21,15 @@ class App extends Component {
   }
 
   render () {
+    // Trying inline styling
     const style = {
       backgroundColor: "#eee",
-      padding: "30px"
+      display: "flex",
+      justifyContent: "center",
+      flexDirection: "column",
+      height: "100vh",
+      boxSizing: "border-box",
+      padding: "60px"
     }
 
     return (
